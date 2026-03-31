@@ -1,0 +1,113 @@
+{
+  "theme": "dark",
+  "archetype": "4 (Swiss & High-Contrast - Automotive Adaptation)",
+  "vibe": "Professional, Industrial, Fast, Trustworthy, Modern",
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "scale": {
+      "h1": "text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl sm:text-3xl font-semibold",
+      "h4": "text-xl font-medium",
+      "body": "text-base sm:text-lg leading-relaxed",
+      "small": "text-sm uppercase tracking-widest font-semibold"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#0A0A0A",
+      "secondary": "#141414",
+      "tertiary": "#1C1C1E"
+    },
+    "surface": {
+      "card": "#18181B",
+      "hover": "#27272A",
+      "border": "#27272A"
+    },
+    "brand": {
+      "primary": "#FACC15",
+      "primary_hover": "#EAB308",
+      "primary_foreground": "#000000"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "muted": "#71717A"
+    },
+    "status": {
+      "success": "#22C55E",
+      "error": "#EF4444"
+    }
+  },
+  "spacing": {
+    "section_padding": "py-24 md:py-32",
+    "container_padding": "px-4 sm:px-6 lg:px-8",
+    "gap": {
+      "small": "gap-4",
+      "medium": "gap-8",
+      "large": "gap-16"
+    }
+  },
+  "layout_patterns": {
+    "hero": "Full screen or min-h-[90vh] flex items-center relative. Background image with bg-black/60 overlay to ensure text contrast. Content left-aligned or centered with a max-width wrapper.",
+    "services_grid": "Bento-style or strict 3-column grid (grid-cols-1 md:grid-cols-2 lg:grid-cols-3) with tight gaps (gap-6). Cards should have minimal styling: solid #18181B bg, 1px border (#27272A), sharp or small rounded corners (rounded-lg).",
+    "about_section": "Split layout (grid-cols-1 lg:grid-cols-2) with a large lifestyle image of the workshop on one side, and heavily structured typography on the other.",
+    "reviews": "3-column grid for the three provided reviews. Emphasize the 4.8 star rating heavily at the top.",
+    "contact_split": "Grid with Contact Form on the left, and Maps/Location/Hours details on the right.",
+    "faq": "Shadcn UI Accordion with minimal styling. Border-bottom only, no background.",
+    "general": "Use straight geometric lines, mostly sharp corners (rounded-none or max rounded-lg) to keep the 'technical/automotive' feel."
+  },
+  "motion": {
+    "hover": "Fast, mechanical transitions. transition-all duration-200 ease-out",
+    "entrance": "Subtle fade-in and slide-up (translate-y-4) on scroll for major sections.",
+    "buttons": "Hover state should lift slightly (-translate-y-1) and increase shadow/glow if primary."
+  },
+  "components": {
+    "buttons": "Solid brand color (yellow) with black text for primary CTA. Secondary CTA: outline with white border and white text, yellow on hover. Sharp edges or rounded-md max.",
+    "cards": "Solid dark grey background (bg-zinc-900), subtle border (border-zinc-800). No soft shadows, use 1px hard shadow or none.",
+    "inputs": "Shadcn input/textarea. Dark background (bg-zinc-950), yellow focus ring (focus:ring-yellow-400), white text."
+  },
+  "media": {
+    "icons": "lucide-react. Ensure to use heavy, clear icons (e.g., Wrench, Shield, Clock, Car, Battery).",
+    "image_urls": {
+      "hero_bg": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/f2aeb6e0-a067-49b3-b0ba-0ca922a99fe8/images/9d1d39540dca28b749f99d41d94a0e9313a2f0edaa305a9a6d5272782b05bc4f.png",
+        "description": "Wide-angle photograph of a modern automotive repair workshop interior.",
+        "category": "hero"
+      },
+      "about_mechanic": {
+        "url": "https://images.pexels.com/photos/8986176/pexels-photo-8986176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Mechanic leaning against pillar in auto workshop.",
+        "category": "about_us"
+      },
+      "services_diagnostic": {
+        "url": "https://images.pexels.com/photos/13065689/pexels-photo-13065689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Close-up view of a mechanic diagnosing engine.",
+        "category": "services"
+      },
+      "services_hands": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/f2aeb6e0-a067-49b3-b0ba-0ca922a99fe8/images/2c0793f43c12d20687182417962bf802fc31fe58773c2d7c1dcfee6d42ee8392.png",
+        "description": "Close-up of a mechanic's hands working on a car engine.",
+        "category": "services_extra"
+      },
+      "texture_bg": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/f2aeb6e0-a067-49b3-b0ba-0ca922a99fe8/images/ad6cbbcf99370c404864c64da9e167ebdb1d741f3ead06e23c31ac5367565e25.png",
+        "description": "Abstract dark industrial metallic texture.",
+        "category": "background_texture"
+      }
+    }
+  },
+  "instructions_to_main_agent": {
+    "1": "You are building a high-converting landing page for a German automotive workshop. All visible text must be in German exactly as requested.",
+    "2": "Follow the black and yellow theme rigorously. The primary CTA buttons must be yellow (#FACC15) with black text. Text must be highly legible against the dark backgrounds.",
+    "3": "Include 'data-testid' attributes on all buttons, forms, and major links.",
+    "4": "The hero section should use 'hero_bg' as the background with a 'bg-black/60' overlay. Make the headline ('Ihre zuverlässige KFZ-Werkstatt in Dreieich') very prominent.",
+    "5": "Implement Google Maps using an iframe embed for the address 'Daimlerstraße 17, 63303 Dreieich'. Make sure the map is visible in the Contact section.",
+    "6": "Use Lucide React for icons (e.g. Star for reviews, CheckCircle for features, MapPin, Phone, Mail).",
+    "7": "Do not use generic placeholder text anywhere. The provided content in the problem statement covers Hero, Services, About, Reviews, Form fields, FAQ, and Opening hours.",
+    "8": "Design should feel 'Technical & Trustworthy'. Use subtle grid lines or borders to separate content instead of heavy shadows.",
+    "9": "Since the user asked for 'partially English UI elements', you can use English for internal component names or generic standard labels if necessary, but keep the core copy in German as provided.",
+    "10": "Ensure mobile responsiveness, especially for the Navigation and Contact grid."
+  }
+}
