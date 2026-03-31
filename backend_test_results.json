@@ -1,0 +1,146 @@
+{
+  "timestamp": "2026-03-31T14:08:23.552078",
+  "total_tests": 6,
+  "passed_tests": 6,
+  "success_rate": "100.0%",
+  "test_results": [
+    {
+      "test_name": "API Root",
+      "method": "GET",
+      "endpoint": "",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_data": {
+        "message": "KFZ-Technik-Dreieich API"
+      },
+      "error": null
+    },
+    {
+      "test_name": "Contact Form Submission",
+      "method": "POST",
+      "endpoint": "contact",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_data": {
+        "id": "4b80e31d-aae7-493b-908d-0952be377039",
+        "name": "Test User",
+        "phone": "06103123456",
+        "email": "test@example.com",
+        "message": "Dies ist eine Testnachricht f\u00fcr die KFZ-Werkstatt.",
+        "created_at": "2026-03-31T14:08:22.847090+00:00",
+        "status": "new"
+      },
+      "error": null
+    },
+    {
+      "test_name": "Contact Form Validation (Invalid Data)",
+      "method": "POST",
+      "endpoint": "contact",
+      "expected_status": 422,
+      "actual_status": 422,
+      "success": true,
+      "response_data": {
+        "detail": [
+          {
+            "type": "string_too_short",
+            "loc": [
+              "body",
+              "name"
+            ],
+            "msg": "String should have at least 2 characters",
+            "input": "",
+            "ctx": {
+              "min_length": 2
+            },
+            "url": "https://errors.pydantic.dev/2.12/v/string_too_short"
+          },
+          {
+            "type": "string_too_short",
+            "loc": [
+              "body",
+              "phone"
+            ],
+            "msg": "String should have at least 5 characters",
+            "input": "123",
+            "ctx": {
+              "min_length": 5
+            },
+            "url": "https://errors.pydantic.dev/2.12/v/string_too_short"
+          },
+          {
+            "type": "value_error",
+            "loc": [
+              "body",
+              "email"
+            ],
+            "msg": "value is not a valid email address: An email address must have an @-sign.",
+            "input": "invalid-email",
+            "ctx": {
+              "reason": "An email address must have an @-sign."
+            }
+          },
+          {
+            "type": "string_too_short",
+            "loc": [
+              "body",
+              "message"
+            ],
+            "msg": "String should have at least 10 characters",
+            "input": "short",
+            "ctx": {
+              "min_length": 10
+            },
+            "url": "https://errors.pydantic.dev/2.12/v/string_too_short"
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "test_name": "Get Contact Forms",
+      "method": "GET",
+      "endpoint": "contact",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_data": [
+        {
+          "id": "4b80e31d-aae7-493b-908d-0952be377039",
+          "name": "Test User",
+          "phone": "06103123456",
+          "email": "test@example.com",
+          "message": "Dies ist eine Testnachricht f\u00fcr die KFZ-Werkstatt.",
+          "created_at": "2026-03-31T14:08:22.847090+00:00",
+          "status": "new"
+        }
+      ],
+      "error": null
+    },
+    {
+      "test_name": "Get Status Checks",
+      "method": "GET",
+      "endpoint": "status",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_data": [],
+      "error": null
+    },
+    {
+      "test_name": "Create Status Check",
+      "method": "POST",
+      "endpoint": "status",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_data": {
+        "id": "037987c9-4992-4edf-b72a-01822517e618",
+        "client_name": "test_client",
+        "timestamp": "2026-03-31T14:08:23.515772Z"
+      },
+      "error": null
+    }
+  ]
+}
