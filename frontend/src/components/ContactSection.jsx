@@ -14,7 +14,7 @@ const openingHours = [
 { day: "Dienstag", hours: "08:00\u201317:00" },
 { day: "Mittwoch", hours: "Geschlossen", closed: true },
 { day: "Donnerstag", hours: "08:00–18:00" },
-{ day: "Freitag", hours: "08:00–18:00" },
+{ day: "Freitag", hours: "08:00\u201317:00" },
 { day: "Samstag", hours: "08:00–16:00" },
 { day: "Sonntag", hours: "Geschlossen", closed: true }];
 
