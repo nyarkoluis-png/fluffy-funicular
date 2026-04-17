@@ -42,7 +42,7 @@ export default function AboutSection() {
             {/* Name Badge */}
             <div className="absolute -bottom-4 left-1/2 lg:left-8 transform -translate-x-1/2 lg:translate-x-0 bg-[#18181B] border border-[#27272A] px-6 py-3 rounded-lg">
               <p className="text-white font-semibold text-lg">Saša Bajalović</p>
-              <p className="text-[#F97316] text-sm">Gründer & Geschäftsführer</p>
+              <p className="text-[#F97316] text-sm">Geschäftsführer</p>
             </div>
           </div>
 

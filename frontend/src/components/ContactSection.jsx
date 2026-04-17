@@ -52,24 +52,15 @@ export default function ContactSection() {
                 Anfrageformular zurzeit nicht verfügbar
               </h4>
               <p className="text-[#A1A1AA] mb-6">
-                Bitte kontaktieren Sie uns telefonisch oder per E-Mail.
+                Bitte kontaktieren Sie uns telefonisch.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="tel:061038030257"
-                  className="btn-primary flex items-center justify-center gap-2 px-6 py-3 rounded-md font-semibold"
-                >
-                  <Phone className="w-5 h-5" />
-                  Jetzt anrufen
-                </a>
-                <a
-                  href="mailto:info@kfz-technik-dreieich.de"
-                  className="btn-secondary flex items-center justify-center gap-2 px-6 py-3 rounded-md font-semibold"
-                >
-                  <Mail className="w-5 h-5" />
-                  E-Mail senden
-                </a>
-              </div>
+              <a
+                href="tel:061038030257"
+                className="btn-primary flex items-center justify-center gap-2 px-8 py-4 rounded-md font-semibold text-lg"
+              >
+                <Phone className="w-5 h-5" />
+                Jetzt anrufen
+              </a>
             </div>
           </div>
 
