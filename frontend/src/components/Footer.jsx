@@ -29,13 +29,11 @@ export default function Footer() {
               className="flex items-center mb-6"
               data-testid="footer-logo"
             >
-              <div className="h-16 w-16 overflow-hidden rounded-lg">
-                <img
-                  src={logoImage}
-                  alt="KFZ-Technik Dreieich Logo"
-                  className="h-full w-full object-cover"
-                />
-              </div>
+              <img
+                src={logoImage}
+                alt="KFZ-Technik Dreieich Logo"
+                className="h-20 w-auto object-contain"
+              />
             </a>
             <p className="text-[#A1A1AA] mb-4">
               <strong className="text-white">Saša Bajalović</strong>
