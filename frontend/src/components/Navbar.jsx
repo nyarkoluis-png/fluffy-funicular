@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Full card image - we crop to show only the logo (gear + wrench + car)
-const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lbzc8eo5_20260417_213332.jpg";
+// Straight card image
+const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/xuofdn3p_20260417_213332.jpg";
 
 const navLinks = [
   { name: "Start", href: "#hero" },

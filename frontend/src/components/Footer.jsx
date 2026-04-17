@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
 
-const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lbzc8eo5_20260417_213332.jpg";
+const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/xuofdn3p_20260417_213332.jpg";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
