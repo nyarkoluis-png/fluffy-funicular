@@ -28,12 +28,12 @@ export default function Footer() {
               className="flex items-center gap-3 mb-6"
               data-testid="footer-logo"
             >
-              <div className="h-14 w-14 overflow-hidden rounded-lg">
+              <div className="h-14 w-28 overflow-hidden rounded-lg bg-[#1a1d24]">
                 <img
                   src={cardImage}
                   alt="KFZ-Technik Dreieich Logo"
                   className="h-full w-auto object-cover"
-                  style={{ objectPosition: "right center", transform: "scale(2.2)", transformOrigin: "70% 50%" }}
+                  style={{ objectPosition: "center center", transform: "scale(1.3)", transformOrigin: "60% 55%" }}
                 />
               </div>
               <div>

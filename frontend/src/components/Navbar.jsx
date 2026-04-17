@@ -46,19 +46,19 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo - only the gear/wrench symbol */}
+          {/* Logo - gear/wrench with car outline */}
           <a
             href="#hero"
             onClick={(e) => scrollToSection(e, "#hero")}
             className="flex items-center gap-3"
             data-testid="navbar-logo"
           >
-            <div className="h-12 w-12 overflow-hidden rounded-lg">
+            <div className="h-14 w-20 overflow-hidden rounded-lg bg-[#1a1d24]">
               <img
                 src={cardImage}
                 alt="KFZ-Technik Dreieich Logo"
                 className="h-full w-auto object-cover"
-                style={{ objectPosition: "right center", transform: "scale(2.2)", transformOrigin: "70% 50%" }}
+                style={{ objectPosition: "center center", transform: "scale(1.5)", transformOrigin: "65% 60%" }}
               />
             </div>
             <div className="hidden sm:block">
