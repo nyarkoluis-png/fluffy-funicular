@@ -1,11 +1,11 @@
-const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/dc8xtdng_20260417_154112.jpg";
+const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lbzc8eo5_20260417_213332.jpg";
 
 // Placeholder for more images - add more URLs here later
 const slideshowImages = [
-  { src: logoImage, alt: "KFZ-Technik Dreieich Logo" },
-  { src: logoImage, alt: "KFZ-Technik Dreieich Logo" },
-  { src: logoImage, alt: "KFZ-Technik Dreieich Logo" },
-  { src: logoImage, alt: "KFZ-Technik Dreieich Logo" },
+  { src: cardImage, alt: "KFZ-Technik Dreieich" },
+  { src: cardImage, alt: "KFZ-Technik Dreieich" },
+  { src: cardImage, alt: "KFZ-Technik Dreieich" },
+  { src: cardImage, alt: "KFZ-Technik Dreieich" },
 ];
 
 export default function SlideshowBanner() {
@@ -21,16 +21,13 @@ export default function SlideshowBanner() {
         {allImages.map((image, index) => (
           <div
             key={index}
-            className="flex-shrink-0 h-20 md:h-24 px-4 flex items-center justify-center overflow-hidden"
+            className="flex-shrink-0 h-24 md:h-28 px-6 flex items-center justify-center"
           >
-            <div className="h-full w-40 md:w-48 overflow-hidden rounded-lg">
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="h-full w-full object-cover object-right"
-                style={{ objectPosition: "70% center" }}
-              />
-            </div>
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="h-full w-auto object-contain rounded-lg"
+            />
           </div>
         ))}
       </div>

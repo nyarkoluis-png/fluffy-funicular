@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
 
-const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/dc8xtdng_20260417_154112.jpg";
+const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lbzc8eo5_20260417_213332.jpg";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,11 +28,18 @@ export default function Footer() {
               className="flex items-center gap-3 mb-6"
               data-testid="footer-logo"
             >
-              <img
-                src={logoImage}
-                alt="KFZ-Technik Dreieich Logo"
-                className="h-16 w-auto rounded"
-              />
+              <div className="h-14 w-14 overflow-hidden rounded-lg">
+                <img
+                  src={cardImage}
+                  alt="KFZ-Technik Dreieich Logo"
+                  className="h-full w-auto object-cover"
+                  style={{ objectPosition: "right center", transform: "scale(2.2)", transformOrigin: "70% 50%" }}
+                />
+              </div>
+              <div>
+                <span className="text-xl font-bold text-white">KFZ-Technik</span>
+                <span className="text-xl font-bold text-[#F97316]"> Dreieich</span>
+              </div>
             </a>
             <p className="text-[#A1A1AA] mb-4">
               <strong className="text-white">Saša Bajalović</strong>
