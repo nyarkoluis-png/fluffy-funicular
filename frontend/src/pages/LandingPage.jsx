@@ -1,7 +1,9 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
+import SlideshowBanner from "@/components/SlideshowBanner";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
+import ServicesTableSection from "@/components/ServicesTableSection";
 import AboutSection from "@/components/AboutSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import ContactSection from "@/components/ContactSection";
@@ -13,6 +15,7 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-[#0A0A0A]" data-testid="landing-page">
+      <SlideshowBanner />
       <Navbar 
         mobileMenuOpen={mobileMenuOpen} 
         setMobileMenuOpen={setMobileMenuOpen} 
@@ -20,6 +23,7 @@ export default function LandingPage() {
       <main>
         <HeroSection />
         <ServicesSection />
+        <ServicesTableSection />
         <AboutSection />
         <ReviewsSection />
         <ContactSection />

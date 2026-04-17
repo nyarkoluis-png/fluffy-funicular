@@ -28,7 +28,7 @@ export default function ReviewsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-sm uppercase tracking-widest font-semibold text-[#FACC15] mb-4 block">
+          <span className="text-sm uppercase tracking-widest font-semibold text-[#F97316] mb-4 block">
             Kundenstimmen
           </span>
           <h2
@@ -43,13 +43,13 @@ export default function ReviewsSection() {
             className="inline-flex items-center gap-4 bg-[#18181B] px-8 py-4 rounded-lg"
             data-testid="reviews-overall-rating"
           >
-            <div className="text-4xl font-bold text-[#FACC15]">4.8</div>
+            <div className="text-4xl font-bold text-[#F97316]">4.8</div>
             <div className="text-left">
               <div className="flex items-center gap-1 mb-1">
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
-                    className="w-5 h-5 fill-[#FACC15] text-[#FACC15]"
+                    className="w-5 h-5 fill-[#F97316] text-[#F97316]"
                   />
                 ))}
               </div>
@@ -67,7 +67,7 @@ export default function ReviewsSection() {
               data-testid={`review-card-${index}`}
             >
               {/* Quote Icon */}
-              <Quote className="w-10 h-10 text-[#FACC15] mb-4" />
+              <Quote className="w-10 h-10 text-[#F97316] mb-4" />
 
               {/* Review Text */}
               <p className="text-lg text-[#A1A1AA] mb-6 leading-relaxed">
@@ -84,7 +84,7 @@ export default function ReviewsSection() {
                   {[...Array(review.rating)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-4 h-4 fill-[#FACC15] text-[#FACC15]"
+                      className="w-4 h-4 fill-[#F97316] text-[#F97316]"
                     />
                   ))}
                 </div>

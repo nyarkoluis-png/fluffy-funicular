@@ -23,12 +23,12 @@
 
 .service-card:hover {
     transform: translateY(-4px);
-    border-color: #FACC15;
+    border-color: #F97316;
     background-color: #1C1C1E;
 }
 
 .service-card:hover .service-icon {
-    color: #FACC15;
+    color: #F97316;
     transform: scale(1.1);
 }
 
@@ -38,15 +38,15 @@
 
 /* Button Styles */
 .btn-primary {
-    background-color: #FACC15;
-    color: #000000;
+    background-color: #F97316;
+    color: #FFFFFF;
     transition: all 0.2s ease-out;
 }
 
 .btn-primary:hover {
-    background-color: #EAB308;
+    background-color: #EA580C;
     transform: translateY(-2px);
-    box-shadow: 0 4px 20px rgba(250, 204, 21, 0.3);
+    box-shadow: 0 4px 20px rgba(249, 115, 22, 0.3);
 }
 
 .btn-secondary {
@@ -57,9 +57,9 @@
 }
 
 .btn-secondary:hover {
-    background-color: #FACC15;
-    border-color: #FACC15;
-    color: #000000;
+    background-color: #F97316;
+    border-color: #F97316;
+    color: #FFFFFF;
 }
 
 /* Review Card */
@@ -82,9 +82,9 @@
 }
 
 .contact-input:focus {
-    border-color: #FACC15;
+    border-color: #F97316;
     outline: none;
-    box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.2);
+    box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
 }
 
 .contact-input::placeholder {
@@ -101,7 +101,7 @@
 }
 
 .faq-trigger:hover {
-    color: #FACC15;
+    color: #F97316;
 }
 
 /* Navigation */
@@ -117,12 +117,12 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #FACC15;
+    background-color: #F97316;
     transition: width 0.2s ease-out;
 }
 
 .nav-link:hover {
-    color: #FACC15;
+    color: #F97316;
 }
 
 .nav-link:hover::after {
@@ -138,7 +138,7 @@
 
 /* Star Rating */
 .star-filled {
-    color: #FACC15;
+    color: #F97316;
 }
 
 .star-empty {
@@ -172,8 +172,22 @@
 
 /* Gradient text */
 .gradient-text {
-    background: linear-gradient(135deg, #FACC15 0%, #EAB308 100%);
+    background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+/* Slideshow Banner */
+@keyframes slideshow {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.slideshow-track {
+    animation: slideshow 30s linear infinite;
+}
+
+.slideshow-track:hover {
+    animation-play-state: paused;
 }

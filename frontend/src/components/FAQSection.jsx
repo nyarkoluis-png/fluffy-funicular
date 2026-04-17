@@ -43,7 +43,7 @@ export default function FAQSection() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <span className="text-sm uppercase tracking-widest font-semibold text-[#FACC15] mb-4 block">
+          <span className="text-sm uppercase tracking-widest font-semibold text-[#F97316] mb-4 block">
             FAQ
           </span>
           <h2

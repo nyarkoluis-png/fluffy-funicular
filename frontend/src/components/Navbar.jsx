@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, Wrench } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/dc8xtdng_20260417_154112.jpg";
 
 const navLinks = [
   { name: "Start", href: "#hero" },
   { name: "Leistungen", href: "#services" },
+  { name: "Preise", href: "#services-table" },
   { name: "Über uns", href: "#about" },
   { name: "Bewertungen", href: "#reviews" },
   { name: "Kontakt", href: "#contact" },
@@ -33,10 +36,10 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-[#0A0A0A]/95 backdrop-blur-md border-b border-[#27272A]"
-          : "bg-transparent"
+          : "bg-[#0A0A0A] border-b border-[#27272A]"
       }`}
       data-testid="navbar"
     >
@@ -49,23 +52,21 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
             className="flex items-center gap-3"
             data-testid="navbar-logo"
           >
-            <div className="w-10 h-10 bg-[#FACC15] rounded-lg flex items-center justify-center">
-              <Wrench className="w-6 h-6 text-black" />
-            </div>
-            <div className="hidden sm:block">
-              <span className="text-xl font-bold text-white">KFZ-Technik</span>
-              <span className="text-xl font-bold text-[#FACC15]">-Dreieich</span>
-            </div>
+            <img
+              src={logoImage}
+              alt="KFZ-Technik Dreieich Logo"
+              className="h-14 w-auto rounded"
+            />
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={(e) => scrollToSection(e, link.href)}
-                className="nav-link text-[#A1A1AA] hover:text-[#FACC15] text-sm font-medium uppercase tracking-wider"
+                className="nav-link text-[#A1A1AA] hover:text-[#F97316] text-sm font-medium uppercase tracking-wider"
                 data-testid={`nav-link-${link.name.toLowerCase()}`}
               >
                 {link.name}
@@ -77,18 +78,18 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:061038030257"
-              className="flex items-center gap-2 text-[#A1A1AA] hover:text-[#FACC15] transition-colors"
+              className="flex items-center gap-2 text-[#A1A1AA] hover:text-[#F97316] transition-colors"
               data-testid="navbar-phone"
             >
               <Phone className="w-4 h-4" />
-              <span className="text-sm font-medium">06103 8030257</span>
+              <span className="text-sm font-medium">06103-8030257</span>
             </a>
             <Button
               onClick={(e) => scrollToSection(e, "#contact")}
               className="btn-primary px-6 py-2 rounded-md font-semibold"
               data-testid="navbar-cta"
             >
-              Termin vereinbaren
+              Kontakt
             </Button>
           </div>
 
@@ -119,7 +120,7 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
                 key={link.name}
                 href={link.href}
                 onClick={(e) => scrollToSection(e, link.href)}
-                className="px-6 py-3 text-[#A1A1AA] hover:text-[#FACC15] hover:bg-[#141414] transition-colors font-medium"
+                className="px-6 py-3 text-[#A1A1AA] hover:text-[#F97316] hover:bg-[#141414] transition-colors font-medium"
               >
                 {link.name}
               </a>
@@ -127,16 +128,16 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
             <div className="px-6 py-4 border-t border-[#27272A] mt-2">
               <a
                 href="tel:061038030257"
-                className="flex items-center gap-2 text-[#FACC15] mb-4"
+                className="flex items-center gap-2 text-[#F97316] mb-4"
               >
                 <Phone className="w-5 h-5" />
-                <span className="font-semibold">06103 8030257</span>
+                <span className="font-semibold">06103-8030257</span>
               </a>
               <Button
                 onClick={(e) => scrollToSection(e, "#contact")}
                 className="btn-primary w-full py-3 rounded-md font-semibold"
               >
-                Termin vereinbaren
+                Kontakt
               </Button>
             </div>
           </nav>

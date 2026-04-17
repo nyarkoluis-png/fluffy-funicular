@@ -34,12 +34,17 @@ export default function HeroSection() {
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
-                  className={`w-4 h-4 ${i < 5 ? "fill-[#FACC15] text-[#FACC15]" : "text-[#27272A]"}`}
+                  className={`w-4 h-4 ${i < 5 ? "fill-[#F97316] text-[#F97316]" : "text-[#27272A]"}`}
                 />
               ))}
             </div>
-            <span className="text-[#FACC15] font-semibold">4.8</span>
+            <span className="text-[#F97316] font-semibold">4.8</span>
             <span className="text-[#A1A1AA] text-sm">aus 37 Bewertungen</span>
+          </div>
+
+          {/* Meisterwerkstatt Badge */}
+          <div className="inline-block bg-[#F97316] text-white px-4 py-1 rounded-full text-sm font-semibold mb-4 animate-fade-in-up">
+            Meisterwerkstatt
           </div>
 
           {/* Main Headline */}
@@ -48,12 +53,12 @@ export default function HeroSection() {
             data-testid="hero-headline"
           >
             Ihre zuverlässige{" "}
-            <span className="text-[#FACC15]">KFZ-Werkstatt</span> in Dreieich
+            <span className="text-[#F97316]">KFZ-Werkstatt</span> in Dreieich
           </h1>
 
           {/* Subheadline */}
           <p
-            className="text-2xl sm:text-3xl font-semibold text-[#FACC15] mb-6 animate-fade-in-up animation-delay-200"
+            className="text-2xl sm:text-3xl font-semibold text-[#F97316] mb-6 animate-fade-in-up animation-delay-200"
             data-testid="hero-subheadline"
           >
             Schnell. Fair. Professionell.
@@ -85,7 +90,7 @@ export default function HeroSection() {
               data-testid="hero-cta-phone"
             >
               <Phone className="w-5 h-5" />
-              Jetzt anrufen: 06103 8030257
+              Jetzt anrufen: 06103-8030257
             </a>
           </div>
         </div>
@@ -99,7 +104,7 @@ export default function HeroSection() {
             e.preventDefault();
             document.querySelector("#services")?.scrollIntoView({ behavior: "smooth" });
           }}
-          className="text-[#A1A1AA] hover:text-[#FACC15] transition-colors"
+          className="text-[#A1A1AA] hover:text-[#F97316] transition-colors"
           data-testid="hero-scroll-indicator"
         >
           <ChevronDown className="w-8 h-8" />

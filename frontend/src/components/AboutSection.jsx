@@ -31,7 +31,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Image Side - Founder */}
           <div className="relative">
-            <div className="aspect-square max-w-md mx-auto lg:mx-0 rounded-lg overflow-hidden border-4 border-[#FACC15]">
+            <div className="aspect-square max-w-md mx-auto lg:mx-0 rounded-lg overflow-hidden border-4 border-[#F97316]">
               <img
                 src={founderImage}
                 alt="Geschäftsführer KFZ-Technik-Dreieich"
@@ -41,13 +41,14 @@ export default function AboutSection() {
             </div>
             {/* Name Badge */}
             <div className="absolute -bottom-4 left-1/2 lg:left-8 transform -translate-x-1/2 lg:translate-x-0 bg-[#18181B] border border-[#27272A] px-6 py-3 rounded-lg">
-              <p className="text-[#FACC15] font-semibold text-lg">Gründer & Geschäftsführer</p>
+              <p className="text-white font-semibold text-lg">Saša Bajalović</p>
+              <p className="text-[#F97316] text-sm">Gründer & Geschäftsführer</p>
             </div>
           </div>
 
           {/* Content Side */}
           <div>
-            <span className="text-sm uppercase tracking-widest font-semibold text-[#FACC15] mb-4 block">
+            <span className="text-sm uppercase tracking-widest font-semibold text-[#F97316] mb-4 block">
               Über uns
             </span>
             <h2
@@ -71,8 +72,8 @@ export default function AboutSection() {
                   className="flex items-start gap-4"
                   data-testid={`about-feature-${index}`}
                 >
-                  <div className="w-12 h-12 bg-[#FACC15] rounded-lg flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="w-6 h-6 text-black" />
+                  <div className="w-12 h-12 bg-[#F97316] rounded-lg flex items-center justify-center flex-shrink-0">
+                    <feature.icon className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-1">

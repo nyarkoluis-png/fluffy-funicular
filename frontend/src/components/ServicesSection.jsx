@@ -49,7 +49,7 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-sm uppercase tracking-widest font-semibold text-[#FACC15] mb-4 block">
+          <span className="text-sm uppercase tracking-widest font-semibold text-[#F97316] mb-4 block">
             Was wir bieten
           </span>
           <h2
