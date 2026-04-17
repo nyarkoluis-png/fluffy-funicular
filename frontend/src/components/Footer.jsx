@@ -1,6 +1,7 @@
 import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
 
-const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/xuofdn3p_20260417_213332.jpg";
+// Separate logo image
+const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/2bqgiooy_20260417_213332~2.jpg";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,12 +29,11 @@ export default function Footer() {
               className="flex items-center mb-6"
               data-testid="footer-logo"
             >
-              <div className="h-16 w-28 overflow-hidden rounded-lg bg-[#1a1d24]">
+              <div className="h-16 w-16 overflow-hidden rounded-lg">
                 <img
-                  src={cardImage}
+                  src={logoImage}
                   alt="KFZ-Technik Dreieich Logo"
-                  className="h-[200%] w-auto object-cover"
-                  style={{ objectPosition: "right top", transform: "translateX(-15%) translateY(-5%)" }}
+                  className="h-full w-full object-cover"
                 />
               </div>
             </a>

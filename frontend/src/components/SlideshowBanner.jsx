@@ -21,12 +21,12 @@ export default function SlideshowBanner() {
         {allImages.map((image, index) => (
           <div
             key={index}
-            className="flex-shrink-0 h-24 md:h-28 px-6 flex items-center justify-center"
+            className="flex-shrink-0 h-24 md:h-28 flex items-center justify-center"
           >
             <img
               src={image.src}
               alt={image.alt}
-              className="h-full w-auto object-contain rounded-lg"
+              className="h-full w-auto object-contain"
             />
           </div>
         ))}

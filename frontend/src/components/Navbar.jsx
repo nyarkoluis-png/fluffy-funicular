@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Straight card image
-const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/xuofdn3p_20260417_213332.jpg";
+// Separate logo image (gear + wrench + car)
+const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/2bqgiooy_20260417_213332~2.jpg";
 
 const navLinks = [
   { name: "Start", href: "#hero" },
@@ -53,12 +53,11 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
             className="flex items-center"
             data-testid="navbar-logo"
           >
-            <div className="h-16 w-28 overflow-hidden rounded-lg bg-[#1a1d24]">
+            <div className="h-14 w-14 overflow-hidden rounded-lg">
               <img
-                src={cardImage}
+                src={logoImage}
                 alt="KFZ-Technik Dreieich Logo"
-                className="h-[200%] w-auto object-cover"
-                style={{ objectPosition: "right top", transform: "translateX(-15%) translateY(-5%)" }}
+                className="h-full w-full object-cover"
               />
             </div>
           </a>
