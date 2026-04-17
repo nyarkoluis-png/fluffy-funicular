@@ -25,20 +25,16 @@ export default function Footer() {
             <a
               href="#hero"
               onClick={(e) => scrollToSection(e, "#hero")}
-              className="flex items-center gap-3 mb-6"
+              className="flex items-center mb-6"
               data-testid="footer-logo"
             >
-              <div className="h-14 w-28 overflow-hidden rounded-lg bg-[#1a1d24]">
+              <div className="h-16 w-28 overflow-hidden rounded-lg bg-[#1a1d24]">
                 <img
                   src={cardImage}
                   alt="KFZ-Technik Dreieich Logo"
-                  className="h-full w-auto object-cover"
-                  style={{ objectPosition: "center center", transform: "scale(1.3)", transformOrigin: "60% 55%" }}
+                  className="h-[200%] w-auto object-cover"
+                  style={{ objectPosition: "right top", transform: "translateX(-15%) translateY(-5%)" }}
                 />
-              </div>
-              <div>
-                <span className="text-xl font-bold text-white">KFZ-Technik</span>
-                <span className="text-xl font-bold text-[#F97316]"> Dreieich</span>
               </div>
             </a>
             <p className="text-[#A1A1AA] mb-4">

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Full card image - we crop to show only the logo (gear with wrench)
+// Full card image - we crop to show only the logo (gear + wrench + car)
 const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lbzc8eo5_20260417_213332.jpg";
 
 const navLinks = [
@@ -46,24 +46,20 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo - gear/wrench with car outline */}
+          {/* Logo - only the graphic (gear + wrench + car), no text */}
           <a
             href="#hero"
             onClick={(e) => scrollToSection(e, "#hero")}
-            className="flex items-center gap-3"
+            className="flex items-center"
             data-testid="navbar-logo"
           >
-            <div className="h-14 w-20 overflow-hidden rounded-lg bg-[#1a1d24]">
+            <div className="h-16 w-28 overflow-hidden rounded-lg bg-[#1a1d24]">
               <img
                 src={cardImage}
                 alt="KFZ-Technik Dreieich Logo"
-                className="h-full w-auto object-cover"
-                style={{ objectPosition: "center center", transform: "scale(1.5)", transformOrigin: "65% 60%" }}
+                className="h-[200%] w-auto object-cover"
+                style={{ objectPosition: "right top", transform: "translateX(-15%) translateY(-5%)" }}
               />
-            </div>
-            <div className="hidden sm:block">
-              <span className="text-lg font-bold text-white">KFZ-Technik</span>
-              <span className="text-lg font-bold text-[#F97316]"> Dreieich</span>
             </div>
           </a>
 
