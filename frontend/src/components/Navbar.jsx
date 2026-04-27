@@ -46,18 +46,20 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo - rounded corners, full image, adjusted size */}
+          {/* Logo - rounded corners, full image visible */}
           <a
             href="#hero"
             onClick={(e) => scrollToSection(e, "#hero")}
             className="flex items-center"
             data-testid="navbar-logo"
           >
-            <img
-              src={logoImage}
-              alt="KFZ-Technik Dreieich Logo"
-              className="h-12 w-12 object-cover rounded-xl"
-            />
+            <div className="h-14 w-14 rounded-xl overflow-hidden bg-[#1a2332]">
+              <img
+                src={logoImage}
+                alt="KFZ-Technik Dreieich Logo"
+                className="h-full w-full object-contain p-1"
+              />
+            </div>
           </a>
 
           {/* Desktop Navigation */}
