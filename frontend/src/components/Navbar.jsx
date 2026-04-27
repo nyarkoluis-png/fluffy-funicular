@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Separate logo image (gear + wrench + car)
-const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/2bqgiooy_20260417_213332~2.jpg";
+// New high-quality logo image
+const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/ladyvxa6_file_0000000083687243bfab7d225a7395a7~2.png";
 
 const navLinks = [
   { name: "Start", href: "#hero" },

@@ -1,4 +1,4 @@
-const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/xuofdn3p_20260417_213332.jpg";
+const cardImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/bsjjjay6_file_0000000083687243bfab7d225a7395a7.png";
 
 // Placeholder for more images - add more URLs here later
 const slideshowImages = [
