@@ -32,7 +32,7 @@ export default function Footer() {
               <img
                 src={logoImage}
                 alt="KFZ-Technik Dreieich Logo"
-                className="h-16 w-auto object-contain rounded-xl"
+                className="h-14 w-14 object-cover rounded-xl"
               />
             </a>
             <p className="text-[#A1A1AA] mb-4">
