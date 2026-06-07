@@ -191,3 +191,11 @@
 .slideshow-track:hover {
     animation-play-state: paused;
 }
+
+.slideshow-track-fast {
+    animation: slideshow 20s linear infinite;
+}
+
+.slideshow-track-fast:hover {
+    animation-play-state: paused;
+}
