@@ -5,8 +5,8 @@ export default function GallerySection() {
     <section
       id="gallery"
       className="py-24 md:py-32 bg-[#141414]"
-      data-testid="gallery-section"
-    >
+      data-testid="gallery-section">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -27,7 +27,7 @@ export default function GallerySection() {
           {/* Bild 1 */}
           <div className="break-inside-avoid">
             <img src="" alt="Werkstatt Bild 1" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
-            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[150px]">
+            <div className="w-full border border-dashed border-[#27272A] flex flex-col items-center justify-center hover:border-[#F97316] transition-colors min-h-[170px] !py-[32px] !px-[32px] !rounded-lg !bg-[#18181B]">
               <Camera className="w-12 h-12 text-[#27272A] mb-3" />
               <span className="text-[#71717A] text-sm">Bild 1</span>
             </div>
@@ -72,7 +72,7 @@ export default function GallerySection() {
           {/* Bild 6 */}
           <div className="break-inside-avoid">
             <img src="" alt="Werkstatt Bild 6" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
-            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[170px]">
+            <div className="w-full border border-dashed border-[#27272A] flex flex-col items-center justify-center hover:border-[#F97316] transition-colors min-h-[190px] !py-[32px] !px-[32px] !rounded-lg !bg-[#18181B]">
               <Camera className="w-12 h-12 text-[#27272A] mb-3" />
               <span className="text-[#71717A] text-sm">Bild 6</span>
             </div>
@@ -161,6 +161,6 @@ export default function GallerySection() {
 
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
