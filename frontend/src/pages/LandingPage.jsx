@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import ServicesTableSection from "@/components/ServicesTableSection";
 import AboutSection from "@/components/AboutSection";
+import GallerySection from "@/components/GallerySection";
 import ReviewsSection from "@/components/ReviewsSection";
 import ContactSection from "@/components/ContactSection";
 import FAQSection from "@/components/FAQSection";
@@ -25,6 +26,7 @@ export default function LandingPage() {
         <ServicesSection />
         <ServicesTableSection />
         <AboutSection />
+        <GallerySection />
         <ReviewsSection />
         <ContactSection />
         <FAQSection />
