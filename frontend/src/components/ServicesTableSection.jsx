@@ -12,7 +12,7 @@ const services = [
 
 },
 {
-  category: "Inspektion & Wartung",
+  category: "HU & AU     (Pr\xFCfer GT\xDC)",
   items: [
   { name: "Kleine Inspektion", price: "ab 149€", included: true },
   { name: "Große Inspektion", price: "ab 299€", included: true },
