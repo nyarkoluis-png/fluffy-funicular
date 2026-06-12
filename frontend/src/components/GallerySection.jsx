@@ -22,7 +22,7 @@ export default function GallerySection() {
         {/* Gallery Grid - Masonry Layout */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
           
-          {/* Bild 1 - Werkstatt Außenansicht (breit) */}
+          {/* Bild 1 - Werkstatt Außenansicht */}
           <div className="break-inside-avoid">
             <img 
               src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/8bbter4o_file_000000006cc4720a8a1e61b411dc40b6.png" 
@@ -40,7 +40,7 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 3 - Werkstatt Innen mit BMW (hoch) */}
+          {/* Bild 3 - Werkstatt Innen mit BMW */}
           <div className="break-inside-avoid">
             <img 
               src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/bld8cumq_webseite_optimiert_1.jpg" 
@@ -49,7 +49,7 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 4 - Bremsflüssigkeitsgerät (hoch) */}
+          {/* Bild 4 - Bremsflüssigkeitsgerät */}
           <div className="break-inside-avoid">
             <img 
               src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/55x9fnki_webseite_optimiert_2.jpg" 
@@ -58,7 +58,7 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 5 - Reifenmontiermaschine (hoch) */}
+          {/* Bild 5 - Reifenmontiermaschine */}
           <div className="break-inside-avoid">
             <img 
               src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/j2t29eqx_webseite_optimiert_3.jpg" 
@@ -67,47 +67,47 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Platzhalter 6 */}
+          {/* Bild 6 - Hebebühne Steuerung */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x300/18181B/71717A?text=Bild+6" 
-              alt="Werkstatt Bild 6" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/tckoo43r_20260612_132349~2.jpg" 
+              alt="Longus Hebebühne Steuerung" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 7 */}
+          {/* Bild 7 - Nummernschilder Sammlung */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x350/18181B/71717A?text=Bild+7" 
-              alt="Werkstatt Bild 7" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/w204n4un_20260612_132504~3.jpg" 
+              alt="Nummernschilder Sammlung" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 8 */}
+          {/* Bild 8 - Reifen & Motor */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x280/18181B/71717A?text=Bild+8" 
-              alt="Werkstatt Bild 8" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/oiugokkg_20260612_132812~2.jpg" 
+              alt="Reifen Stapel und Motor" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 9 */}
+          {/* Bild 9 - BMW M2 Wandbild */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x320/18181B/71717A?text=Bild+9" 
-              alt="Werkstatt Bild 9" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/0ggto5ue_20260612_132838~2.jpg" 
+              alt="BMW M2 Wandkunst" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 10 */}
+          {/* Bild 10 - Werkstatt Lager */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x290/18181B/71717A?text=Bild+10" 
-              alt="Werkstatt Bild 10" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/hdjcngcp_file_000000006340720abac62a26d481f19a.png" 
+              alt="Werkstatt Lagerraum mit Equipment" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
