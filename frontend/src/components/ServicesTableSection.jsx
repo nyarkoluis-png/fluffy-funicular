@@ -32,7 +32,7 @@ const services = [
 
 },
 {
-  category: "Zusatzleistungen",
+  category: "Karosserie & Lackarbeiten",
   items: [
   { name: "HU/AU Vorbereitung", price: "ab 49€", included: true },
   { name: "Reifenwechsel (4 Reifen)", price: "ab 29€", included: true },
