@@ -1,21 +1,21 @@
 import { Check } from "lucide-react";
 
 const advantages = [
-  "Meisterwerkstatt-Qualität",
-  "Faire & transparente Preise",
-  "Schnelle Terminvergabe",
-  "Originalteile & Qualitätsersatzteile",
-  "Persönliche Beratung",
-  "Garantie auf alle Arbeiten",
-];
+"Meisterwerkstatt-Qualität",
+"Faire & transparente Preise",
+"Schnelle Terminvergabe",
+"Originalteile & Qualitätsersatzteile",
+"Persönliche Beratung",
+"Garantie auf alle Arbeiten"];
+
 
 export default function ServicesTableSection() {
   return (
     <section
       id="services-table"
       className="py-24 md:py-32 bg-[#0A0A0A]"
-      data-testid="services-table-section"
-    >
+      data-testid="services-table-section">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -36,12 +36,12 @@ export default function ServicesTableSection() {
             Warum KFZ-Technik Dreieich?
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {advantages.map((advantage, index) => (
-              <div key={index} className="flex items-center gap-2 text-sm">
+            {advantages.map((advantage, index) =>
+            <div key={index} className="flex items-center gap-2 text-sm">
                 <Check className="w-5 h-5 text-[#22C55E] flex-shrink-0" />
                 <span className="text-[#A1A1AA]">{advantage}</span>
               </div>
-            ))}
+            )}
           </div>
         </div>
 
@@ -59,35 +59,35 @@ export default function ServicesTableSection() {
                   <Check className="w-5 h-5 text-[#22C55E]" />
                   <span className="text-white">Klimaanlagen-Check</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 29€</span>
+                <span className="font-semibold !opacity-[0%] text-[#F97316]">ab 29€</span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Klimaanlagen-Desinfektion</span>
+                  <span className="text-white">Absaugen und Recycling</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 49€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Kältemittel nachfüllen</span>
+                  <span className="text-white">Funktions- und Sichtprüfung</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 79€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Klimakompressor-Reparatur</span>
+                  <span className="text-white">Neubefüllung</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Klimaschlauch-Wechsel</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 89€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -101,35 +101,35 @@ export default function ServicesTableSection() {
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">HU Vorbereitung</span>
+                  <span className="text-white">Lenkung und Achsen</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 49€</span>
+                <span className="font-semibold !opacity-[0%] text-[#F97316]">ab 49€</span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">AU Abgasuntersuchung</span>
+                  <span className="text-white">Auslesen des Fehlerspeichers</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 39€</span>
+                <span className="font-semibold !opacity-[0%] text-[#F97316]">ab 39€</span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">HU + AU Komplett</span>
+                  <span className="text-white">Prüfung der Abgaswerte</span>
                 </div>
                 <span className="text-[#F97316] font-semibold">ab 119€</span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Mängel-Beseitigung</span>
+                  <span className="text-white">Bremsanlage</span>
                 </div>
                 <span className="text-[#F97316] font-semibold">auf Anfrage</span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Nachuntersuchung</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
                 <span className="text-[#F97316] font-semibold">ab 29€</span>
               </div>
@@ -410,6 +410,6 @@ export default function ServicesTableSection() {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
