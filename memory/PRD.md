@@ -1,51 +1,78 @@
 # KFZ-Technik-Dreieich Website PRD
 
 ## Original Problem Statement
-Moderne, professionelle und verkaufsstarke Website für KFZ-Technik-Dreieich GmbH.
+Moderne, professionelle und verkaufsstarke Website für KFZ-Technik-Dreieich GmbH mit Schwarz/Orange Farbschema.
 
 ## User Preferences
-- Google Maps Integration mit Standort
-- Kontaktformular mit Datenbank-Speicherung
-- Teilweise Englisch UI
-- Black/Yellow Automotive Design
-- Geschäftsführer-Bild in Über uns Sektion
+- Schwarz/Orange Farbschema (angepasst vom ursprünglichen Gelb)
+- Slideshow-Banner mit Werkstattbildern (11 Bilder, kontinuierlich)
+- Navbar mit speziellem Logo (abgerundet, exakte Maße)
+- Dienstleistungen-Tabelle (8 Blöcke, visuell editierbar)
+- Galerie mit 15 echten Werkstattbildern
+- Kontaktformular deaktiviert ("Anfrageformular zurzeit nicht verfügbar")
+- Visual-Editor-Kompatibilität für alle Texte
 
-## What's Been Implemented (31. März 2026)
+## What's Been Implemented
 
-### Backend
-- FastAPI Server mit /api/contact Endpoint
-- MongoDB Integration für Kontaktformular-Daten
-- Vollständige CRUD-Operationen
+### 12. Juni 2026
+- ✅ Galerie vervollständigt mit allen 15 echten Werkstattbildern
+  - Klimaservicegerät CAR1
+  - Schraubenschlüssel Wandtafel
+  - Werkzeugtafel mit Spezialwerkzeug
+  - Werkstatt Arbeitsbereich mit Motoröl
+  - RP Tools Hebebühne
 
-### Frontend
-- Hero Section mit CTA Buttons
-- Services Section (6 Service-Cards)
-- About Section mit Geschäftsführer-Bild
-- Reviews Section (4.8 Sterne, 3 Bewertungen)
-- Contact Section (Formular, Maps, Öffnungszeiten)
-- FAQ Accordion
-- Footer mit Navigation
-- Mobile responsive Navigation
-- Black/Yellow Automotive Theme (Outfit + Inter Fonts)
+### Vorherige Implementierungen
+- ✅ FastAPI Backend mit /api/contact Endpoint
+- ✅ MongoDB Integration für Kontaktformular-Daten
+- ✅ Slideshow-Banner mit 11 benutzerdefinierten Bildern
+- ✅ Navbar Logo verfeinert (abgerundet, exakte Abmessungen)
+- ✅ ServicesTableSection erweitert auf 8 Blöcke
+- ✅ Alle Inhalte direkt in JSX für Visual-Editor-Kompatibilität
+- ✅ Kontaktformular absichtlich deaktiviert
 
-## Core Requirements (Static)
-- Vertrauensaufbau durch Bewertungen
-- Neukundengewinnung durch CTAs
-- Professionelles Design
+## Code Architecture
+```
+/app/
+├── backend/
+│   ├── server.py
+│   ├── requirements.txt
+│   └── .env
+└── frontend/
+    ├── package.json
+    ├── src/
+    │   ├── App.js
+    │   ├── index.css
+    │   ├── pages/
+    │   │   └── LandingPage.jsx
+    │   └── components/
+    │       ├── Navbar.jsx
+    │       ├── SlideshowBanner.jsx
+    │       ├── ServicesTableSection.jsx (8 Blöcke, direkt in JSX)
+    │       ├── GallerySection.jsx (15 Bilder, direkt in JSX)
+    │       ├── AboutSection.jsx
+    │       ├── ReviewsSection.jsx
+    │       ├── ContactSection.jsx (Formular deaktiviert)
+    │       ├── FAQSection.jsx
+    │       └── Footer.jsx
+```
+
+## WICHTIG: Visual-Editor-Einschränkung
+ServicesTableSection.jsx und GallerySection.jsx haben absichtlich repetitiven Code, weil der Visual-Editor nicht mit `.map()` über Arrays funktioniert. **NICHT in Arrays/Props refaktorisieren**, sonst kann der Benutzer Inhalte nicht visuell bearbeiten.
 
 ## Prioritized Backlog
 ### P0 (Done)
-- ✅ Vollständige Landing Page
-- ✅ Kontaktformular mit DB-Speicherung
-- ✅ Google Maps Integration
-- ✅ Mobile Responsive Design
+- ✅ Vollständige Landing Page mit Schwarz/Orange Theme
+- ✅ Slideshow-Banner (11 Bilder)
+- ✅ 8 Dienstleistungsblöcke (Visual-Editor kompatibel)
+- ✅ Galerie mit 15 echten Werkstattbildern
+- ✅ Kontaktformular deaktiviert
 
-### P1 (Future)
-- E-Mail-Benachrichtigung bei Anfragen
+### P1 (Wartend auf Benutzer)
+- GMX SMTP E-Mail-Integration für Kontaktformular (Benutzer muss Zugangsdaten bereitstellen)
+- 1&1 Domain-Verbindung
+
+### P2 (Zukünftig)
 - Admin-Dashboard für Anfragen
 - Terminbuchungssystem
-
-### P2 (Nice to have)
-- Blog/News Section
-- Mehrsprachigkeit
 - SEO-Optimierung

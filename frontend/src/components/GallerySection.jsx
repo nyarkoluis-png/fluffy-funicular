@@ -112,47 +112,47 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Platzhalter 11 */}
+          {/* Bild 11 - Klimaservicegerät CAR1 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x340/18181B/71717A?text=Bild+11" 
-              alt="Werkstatt Bild 11" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/a0dhrazb_20260612_132328~3.jpg" 
+              alt="CAR1 Klimaservicegerät ECK 3900-UP" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 12 */}
+          {/* Bild 12 - Schraubenschlüssel Wandtafel */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x260/18181B/71717A?text=Bild+12" 
-              alt="Werkstatt Bild 12" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/pjzt163b_20260612_132319~2.jpg" 
+              alt="Professionelle Schraubenschlüssel Sammlung" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 13 */}
+          {/* Bild 13 - Werkzeugtafel */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x310/18181B/71717A?text=Bild+13" 
-              alt="Werkstatt Bild 13" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/zqdodoz4_20260612_132303~2.jpg" 
+              alt="Werkzeugtafel mit Spezialwerkzeug" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 14 */}
+          {/* Bild 14 - Werkstatt Arbeitsbereich */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x330/18181B/71717A?text=Bild+14" 
-              alt="Werkstatt Bild 14" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/7vrb1cqr_20260612_132245~2.jpg" 
+              alt="Werkstatt Arbeitsbereich mit Motoröl" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Platzhalter 15 */}
+          {/* Bild 15 - Hebebühne RP Tools */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x300/18181B/71717A?text=Bild+15" 
-              alt="Werkstatt Bild 15" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lea5vw0h_20260612_132206~3.jpg" 
+              alt="RP Tools Hebebühne mit Fahrzeug" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
