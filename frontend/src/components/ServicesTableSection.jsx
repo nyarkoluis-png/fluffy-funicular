@@ -22,7 +22,7 @@ const services = [
 
 },
 {
-  category: "Elektrik & Batterie",
+  category: "KFZ - Gutachten",
   items: [
   { name: "Batterie-Check & Austausch", price: "ab 29€", included: true },
   { name: "Lichtanlage prüfen", price: "ab 19€", included: true },
