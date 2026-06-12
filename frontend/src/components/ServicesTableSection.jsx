@@ -119,9 +119,9 @@ export default function ServicesTableSection() {
 
                     <div className="flex items-center gap-3">
                       <Check className="w-5 h-5 text-[#22C55E]" />
-                      <span className="text-white">{item.name}</span>
+                      <span className="Funktions- und Sichtpr\xFCfung">{item.name}</span>
                     </div>
-                    <span className="text-[#F97316] font-semibold whitespace-nowrap">
+                    <span className="!opacity-[0%]">
                       {item.price}
                     </span>
                   </div>
@@ -133,10 +133,10 @@ export default function ServicesTableSection() {
 
         {/* Disclaimer */}
         <div className="mt-12 text-center">
-          <p className="text-[#71717A] text-sm">
-            * Alle Preise sind Richtwerte und können je nach Fahrzeugtyp und Aufwand variieren.
+          <p className="kk">
+            utzzhrh
             <br />
-            Gerne erstellen wir Ihnen ein individuelles Angebot.
+            
           </p>
         </div>
       </div>
