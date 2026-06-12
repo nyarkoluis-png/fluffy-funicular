@@ -1,24 +1,5 @@
 import { Camera } from "lucide-react";
 
-// Platzhalter für 15 Bilder - URLs hier einfügen wenn verfügbar
-const galleryImages = [
-  { id: 1, src: null, alt: "Werkstatt Equipment 1" },
-  { id: 2, src: null, alt: "Werkstatt Equipment 2" },
-  { id: 3, src: null, alt: "Werkstatt Equipment 3" },
-  { id: 4, src: null, alt: "Werkstatt Equipment 4" },
-  { id: 5, src: null, alt: "Werkstatt Equipment 5" },
-  { id: 6, src: null, alt: "Werkstatt Equipment 6" },
-  { id: 7, src: null, alt: "Werkstatt Equipment 7" },
-  { id: 8, src: null, alt: "Werkstatt Equipment 8" },
-  { id: 9, src: null, alt: "Werkstatt Equipment 9" },
-  { id: 10, src: null, alt: "Werkstatt Equipment 10" },
-  { id: 11, src: null, alt: "Werkstatt Equipment 11" },
-  { id: 12, src: null, alt: "Werkstatt Equipment 12" },
-  { id: 13, src: null, alt: "Werkstatt Equipment 13" },
-  { id: 14, src: null, alt: "Werkstatt Equipment 14" },
-  { id: 15, src: null, alt: "Werkstatt Equipment 15" },
-];
-
 export default function GallerySection() {
   return (
     <section
@@ -32,10 +13,7 @@ export default function GallerySection() {
           <span className="text-sm uppercase tracking-widest font-semibold text-[#F97316] mb-4 block">
             Unsere Werkstatt
           </span>
-          <h2
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6"
-            data-testid="gallery-title"
-          >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
             Einblick in unsere Werkstatt
           </h2>
           <p className="text-lg text-[#A1A1AA] max-w-2xl mx-auto">
@@ -43,32 +21,144 @@ export default function GallerySection() {
           </p>
         </div>
 
-        {/* Masonry Grid - Auto-adapting to image sizes */}
+        {/* Gallery Grid - 15 Image Placeholders */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
-          {galleryImages.map((image) => (
-            <div
-              key={image.id}
-              className="break-inside-avoid"
-              data-testid={`gallery-image-${image.id}`}
-            >
-              {image.src ? (
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all duration-300 hover:scale-[1.02]"
-                />
-              ) : (
-                <div 
-                  className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors"
-                  style={{ minHeight: `${150 + (image.id % 3) * 50}px` }}
-                >
-                  <Camera className="w-12 h-12 text-[#27272A] mb-3" />
-                  <span className="text-[#71717A] text-sm">Bild {image.id}</span>
-                  <span className="text-[#3F3F46] text-xs mt-1">Platzhalter</span>
-                </div>
-              )}
+          
+          {/* Bild 1 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 1" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[150px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 1</span>
             </div>
-          ))}
+          </div>
+
+          {/* Bild 2 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 2" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[200px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 2</span>
+            </div>
+          </div>
+
+          {/* Bild 3 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 3" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[180px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 3</span>
+            </div>
+          </div>
+
+          {/* Bild 4 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 4" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[160px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 4</span>
+            </div>
+          </div>
+
+          {/* Bild 5 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 5" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[220px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 5</span>
+            </div>
+          </div>
+
+          {/* Bild 6 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 6" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[170px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 6</span>
+            </div>
+          </div>
+
+          {/* Bild 7 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 7" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[190px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 7</span>
+            </div>
+          </div>
+
+          {/* Bild 8 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 8" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[150px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 8</span>
+            </div>
+          </div>
+
+          {/* Bild 9 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 9" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[210px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 9</span>
+            </div>
+          </div>
+
+          {/* Bild 10 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 10" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[180px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 10</span>
+            </div>
+          </div>
+
+          {/* Bild 11 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 11" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[160px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 11</span>
+            </div>
+          </div>
+
+          {/* Bild 12 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 12" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[200px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 12</span>
+            </div>
+          </div>
+
+          {/* Bild 13 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 13" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[170px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 13</span>
+            </div>
+          </div>
+
+          {/* Bild 14 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 14" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[190px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 14</span>
+            </div>
+          </div>
+
+          {/* Bild 15 */}
+          <div className="break-inside-avoid">
+            <img src="" alt="Werkstatt Bild 15" className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all hidden" />
+            <div className="w-full bg-[#18181B] border border-dashed border-[#27272A] rounded-lg flex flex-col items-center justify-center p-8 hover:border-[#F97316] transition-colors min-h-[150px]">
+              <Camera className="w-12 h-12 text-[#27272A] mb-3" />
+              <span className="text-[#71717A] text-sm">Bild 15</span>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
