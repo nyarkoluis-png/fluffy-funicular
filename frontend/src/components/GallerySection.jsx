@@ -19,127 +19,127 @@ export default function GallerySection() {
           </p>
         </div>
 
-        {/* Gallery Grid - 15 Images */}
+        {/* Gallery Grid - Masonry Layout */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
           
-          {/* Bild 1 */}
+          {/* Bild 1 - Werkstatt Außenansicht (breit) */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x300/18181B/71717A?text=Bild+1" 
-              alt="Werkstatt Bild 1" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/8bbter4o_file_000000006cc4720a8a1e61b411dc40b6.png" 
+              alt="Werkstatt Außenansicht Daimlerstraße 17" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 2 */}
+          {/* Bild 2 - Diagnosegerät */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x350/18181B/71717A?text=Bild+2" 
-              alt="Werkstatt Bild 2" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/3x4rrf0w_file_00000000793871f4ba02a43648dca315%20%281%29.png" 
+              alt="Professionelles Diagnosegerät" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 3 */}
+          {/* Bild 3 - Werkstatt Innen mit BMW (hoch) */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x280/18181B/71717A?text=Bild+3" 
-              alt="Werkstatt Bild 3" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/bld8cumq_webseite_optimiert_1.jpg" 
+              alt="Werkstatt mit BMW auf Hebebühne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 4 */}
+          {/* Bild 4 - Bremsflüssigkeitsgerät (hoch) */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x320/18181B/71717A?text=Bild+4" 
-              alt="Werkstatt Bild 4" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/55x9fnki_webseite_optimiert_2.jpg" 
+              alt="ATE FB30 Bremsflüssigkeits-Wechselgerät" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 5 */}
+          {/* Bild 5 - Reifenmontiermaschine (hoch) */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x380/18181B/71717A?text=Bild+5" 
-              alt="Werkstatt Bild 5" 
+              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/j2t29eqx_webseite_optimiert_3.jpg" 
+              alt="Tecnohelp Reifenmontiermaschine" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 6 */}
+          {/* Platzhalter 6 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x290/18181B/71717A?text=Bild+6" 
+              src="https://placehold.co/400x300/18181B/71717A?text=Bild+6" 
               alt="Werkstatt Bild 6" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 7 */}
+          {/* Platzhalter 7 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x340/18181B/71717A?text=Bild+7" 
+              src="https://placehold.co/400x350/18181B/71717A?text=Bild+7" 
               alt="Werkstatt Bild 7" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 8 */}
+          {/* Platzhalter 8 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x260/18181B/71717A?text=Bild+8" 
+              src="https://placehold.co/400x280/18181B/71717A?text=Bild+8" 
               alt="Werkstatt Bild 8" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 9 */}
+          {/* Platzhalter 9 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x360/18181B/71717A?text=Bild+9" 
+              src="https://placehold.co/400x320/18181B/71717A?text=Bild+9" 
               alt="Werkstatt Bild 9" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 10 */}
+          {/* Platzhalter 10 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x310/18181B/71717A?text=Bild+10" 
+              src="https://placehold.co/400x290/18181B/71717A?text=Bild+10" 
               alt="Werkstatt Bild 10" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 11 */}
+          {/* Platzhalter 11 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x270/18181B/71717A?text=Bild+11" 
+              src="https://placehold.co/400x340/18181B/71717A?text=Bild+11" 
               alt="Werkstatt Bild 11" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 12 */}
+          {/* Platzhalter 12 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x350/18181B/71717A?text=Bild+12" 
+              src="https://placehold.co/400x260/18181B/71717A?text=Bild+12" 
               alt="Werkstatt Bild 12" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 13 */}
+          {/* Platzhalter 13 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://placehold.co/400x290/18181B/71717A?text=Bild+13" 
+              src="https://placehold.co/400x310/18181B/71717A?text=Bild+13" 
               alt="Werkstatt Bild 13" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 14 */}
+          {/* Platzhalter 14 */}
           <div className="break-inside-avoid">
             <img 
               src="https://placehold.co/400x330/18181B/71717A?text=Bild+14" 
@@ -148,7 +148,7 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 15 */}
+          {/* Platzhalter 15 */}
           <div className="break-inside-avoid">
             <img 
               src="https://placehold.co/400x300/18181B/71717A?text=Bild+15" 
