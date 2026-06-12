@@ -134,7 +134,7 @@ export default function ServicesTableSection() {
         {/* Disclaimer */}
         <div className="mt-12 text-center">
           <p className="kk">
-            utzzhrh
+            
             <br />
             
           </p>
