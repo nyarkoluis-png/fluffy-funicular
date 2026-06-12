@@ -1,24 +1,24 @@
 import { Check } from "lucide-react";
 
 const advantages = [
-  "Meisterwerkstatt-Qualität",
-  "Faire & transparente Preise",
-  "Schnelle Terminvergabe",
-  "Originalteile & Qualitätsersatzteile",
-  "Persönliche Beratung",
-  "Garantie auf alle Arbeiten",
-];
+"Meisterwerkstatt-Qualität",
+"Faire & transparente Preise",
+"Schnelle Terminvergabe",
+"Originalteile & Qualitätsersatzteile",
+"Persönliche Beratung",
+"Garantie auf alle Arbeiten"];
+
 
 function ServiceItem({ name, price }) {
   return (
     <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
       <div className="flex items-center gap-3">
         <Check className="w-5 h-5 text-[#22C55E]" />
-        <span className="text-white">{name}</span>
+        <span className="hh">{name}</span>
       </div>
-      <span className="text-[#F97316] font-semibold whitespace-nowrap">{price}</span>
-    </div>
-  );
+      <span className="!opacity-[0%]">{price}</span>
+    </div>);
+
 }
 
 function ServiceCategory({ title, children }) {
@@ -30,8 +30,8 @@ function ServiceCategory({ title, children }) {
       <div className="divide-y divide-[#27272A]">
         {children}
       </div>
-    </div>
-  );
+    </div>);
+
 }
 
 export default function ServicesTableSection() {
@@ -39,8 +39,8 @@ export default function ServicesTableSection() {
     <section
       id="services-table"
       className="py-24 md:py-32 bg-[#0A0A0A]"
-      data-testid="services-table-section"
-    >
+      data-testid="services-table-section">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -61,12 +61,12 @@ export default function ServicesTableSection() {
             Warum KFZ-Technik Dreieich?
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {advantages.map((advantage, index) => (
-              <div key={index} className="flex items-center gap-2 text-sm">
+            {advantages.map((advantage, index) =>
+            <div key={index} className="flex items-center gap-2 text-sm">
                 <Check className="w-5 h-5 text-[#22C55E] flex-shrink-0" />
                 <span className="text-[#A1A1AA]">{advantage}</span>
               </div>
-            ))}
+            )}
           </div>
         </div>
 
@@ -155,6 +155,6 @@ export default function ServicesTableSection() {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
