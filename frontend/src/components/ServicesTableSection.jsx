@@ -117,21 +117,21 @@ export default function ServicesTableSection() {
                   <Check className="w-5 h-5 text-[#22C55E]" />
                   <span className="text-white">Prüfung der Abgaswerte</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 119€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
                   <span className="text-white">Bremsanlage</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
                   <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 29€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -145,37 +145,37 @@ export default function ServicesTableSection() {
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Unfallgutachten</span>
+                  <span className="text-white">Demontage von Bauteilen</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Wertgutachten</span>
+                  <span className="text-white">Erkennung verdeckter Schäden</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 149€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Gebrauchtwagen-Check</span>
+                  <span className="text-white">Untersuchung auf der Hebebühne</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 79€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Schadensdokumentation</span>
+                  <span className="text-white">Fahrzeug-Identifikation</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 59€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
                   <span className="text-white">Kurzgutachten</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 99€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -183,43 +183,43 @@ export default function ServicesTableSection() {
           {/* Kategorie 4 */}
           <div className="bg-[#18181B] border border-[#27272A] rounded-lg overflow-hidden">
             <div className="bg-[#F97316] px-6 py-4">
-              <h3 className="text-xl font-bold text-white">Karosserie & Lackarbeiten</h3>
+              <h3 className="text-xl font-bold text-white">Karosserie & Lackarbeiten    (über Fremdfirma)</h3>
             </div>
             <div className="divide-y divide-[#27272A]">
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Beulen-Entfernung</span>
+                  <span className="text-white">Austausch von Karosserieteilen</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 99€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Lackschaden-Reparatur</span>
+                  <span className="text-white">Richtbankarbeiten</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Smart-Repair</span>
+                  <span className="text-white">Ausbeulen ohne Lackieren (Dellendrücken)</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 149€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Steinschlag-Reparatur</span>
+                  <span className="text-white">Unfallinstandsetzung</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 49€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Komplettlackierung</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -227,43 +227,43 @@ export default function ServicesTableSection() {
           {/* Kategorie 5 */}
           <div className="bg-[#18181B] border border-[#27272A] rounded-lg overflow-hidden">
             <div className="bg-[#F97316] px-6 py-4">
-              <h3 className="text-xl font-bold text-white">Motor & Getriebe</h3>
+              <h3 className="text-xl font-bold text-white">Frontscheibenaustausch und andere Teilkaskoschäden</h3>
             </div>
             <div className="divide-y divide-[#27272A]">
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Motordiagnose</span>
+                  <span className="text-white">Feinstaubplaketten-Ersatz</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 49€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Ölwechsel inkl. Filter</span>
+                  <span className="text-white">Kamerajustierung (ADAS)</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 69€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Zahnriemenwechsel</span>
+                  <span className="text-white">Fachgerechter Ausbau</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 349€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Getriebe-Reparatur</span>
+                  <span className="text-white">Prüfung auf Reparaturfähigkeit</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Turbolader-Service</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">auf Anfrage</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -271,43 +271,43 @@ export default function ServicesTableSection() {
           {/* Kategorie 6 */}
           <div className="bg-[#18181B] border border-[#27272A] rounded-lg overflow-hidden">
             <div className="bg-[#F97316] px-6 py-4">
-              <h3 className="text-xl font-bold text-white">Bremsen & Fahrwerk</h3>
+              <h3 className="text-xl font-bold text-white">Reparaturen aller Art</h3>
             </div>
             <div className="divide-y divide-[#27272A]">
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Bremsbeläge wechseln</span>
+                  <span className="text-white">Fahrzeugelektrik & Elektronik</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 89€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Bremsscheiben wechseln</span>
+                  <span className="text-white">Auspuff- und Abgassysteme</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 149€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Stoßdämpfer-Wechsel</span>
+                  <span className="text-white">Fahrwerk- und Bremsen-Service</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 179€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Achsvermessung</span>
+                  <span className="text-white">Motor- und Getriebeinstandsetzung</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 69€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Spurstangen-Wechsel</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 99€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -315,43 +315,43 @@ export default function ServicesTableSection() {
           {/* Kategorie 7 */}
           <div className="bg-[#18181B] border border-[#27272A] rounded-lg overflow-hidden">
             <div className="bg-[#F97316] px-6 py-4">
-              <h3 className="text-xl font-bold text-white">Elektrik & Elektronik</h3>
+              <h3 className="text-xl font-bold text-white">Inspektionen</h3>
             </div>
             <div className="divide-y divide-[#27272A]">
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Batterie-Check</span>
+                  <span className="text-white">Zünd- und Glühkerzen-Service</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 19€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Batterie-Wechsel</span>
+                  <span className="text-white">Filterwechsel</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 29€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Lichtanlage prüfen</span>
+                  <span className="text-white">Eintrag ins digitale Serviceheft</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 19€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Starter-Reparatur</span>
+                  <span className="text-white">Licht- und Elektronik-Test</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 149€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Lichtmaschine-Wechsel</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 199€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -359,43 +359,43 @@ export default function ServicesTableSection() {
           {/* Kategorie 8 */}
           <div className="bg-[#18181B] border border-[#27272A] rounded-lg overflow-hidden">
             <div className="bg-[#F97316] px-6 py-4">
-              <h3 className="text-xl font-bold text-white">Reifen & Räder</h3>
+              <h3 className="text-xl font-bold text-white">Rädermontage</h3>
             </div>
             <div className="divide-y divide-[#27272A]">
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Reifenwechsel (4 Stück)</span>
+                  <span className="text-white">RDKS-Service (Reifendruckkontrollsystem)</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 29€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Reifenmontage mit Wuchten</span>
+                  <span className="text-white">Präzises Auswuchten</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 49€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Reifeneinlagerung</span>
+                  <span className="text-white">Saisonaler Radwechsel (O bis O)</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 39€/Saison</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">Reifenreparatur</span>
+                  <span className="text-white">Reifenmontage</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 19€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
               <div className="flex items-center justify-between px-6 py-4 hover:bg-[#1C1C1E] transition-colors">
                 <div className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-[#22C55E]" />
-                  <span className="text-white">RDKS-Service</span>
+                  <span className="text-white">und vieles mehr</span>
                 </div>
-                <span className="text-[#F97316] font-semibold">ab 29€</span>
+                <span className="text-[#F97316] font-semibold"></span>
               </div>
             </div>
           </div>
@@ -405,8 +405,8 @@ export default function ServicesTableSection() {
         {/* Disclaimer */}
         <div className="mt-12 text-center">
           <p className="text-[#71717A] text-sm">
-            * Alle Preise sind Richtwerte und können je nach Fahrzeugtyp und Aufwand variieren.
-            Gerne erstellen wir Ihnen ein individuelles Angebot.
+
+
           </p>
         </div>
       </div>
