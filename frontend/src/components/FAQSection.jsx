@@ -19,17 +19,12 @@ const faqs = [
   {
     question: "Muss ich einen Termin machen?",
     answer:
-      "Ja, ein Termin wird empfohlen, um Wartezeiten zu vermeiden und sicherzustellen, dass wir genügend Zeit für Ihr Fahrzeug haben. In dringenden Fällen helfen wir aber auch gerne spontan.",
+      "Nein, ein Termin ist nicht erforderlich. Sie können auch einfach vorbeikommen. Wir empfehlen jedoch, vorher kurz anzurufen, damit wir uns optimal auf Sie vorbereiten können.",
   },
   {
     question: "Welche Fahrzeugmarken reparieren Sie?",
     answer:
       "Wir reparieren alle gängigen Fahrzeugmarken. Egal ob Audi, BMW, Mercedes, VW oder andere – wir sind für Sie da.",
-  },
-  {
-    question: "Bieten Sie auch Abholung und Bringservice an?",
-    answer:
-      "In bestimmten Fällen können wir einen Hol- und Bringservice anbieten. Sprechen Sie uns einfach darauf an.",
   },
 ];
 
