@@ -22,137 +22,47 @@ export default function GallerySection() {
         {/* Gallery Grid - Masonry Layout */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
           
-          {/* Bild 1 */}
+          {/* Bild 1 - BMW M2 hellblau */}
           <div className="break-inside-avoid">
             <img 
-              src="" 
-              alt="Werkstatt Bild 1" 
+              src="https://customer-assets-eiarnc6j.emergentagent.net/job_kfz-reparatur-pro/artifacts/rml7d3d0_IMG-20260619-WA0001%281%29.jpg" 
+              alt="BMW M2 hellblau in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 2 */}
+          {/* Bild 2 - VW T-Cross mit Smart */}
           <div className="break-inside-avoid">
             <img 
-              src="" 
-              alt="Werkstatt Bild 2" 
+              src="https://customer-assets-eiarnc6j.emergentagent.net/job_kfz-reparatur-pro/artifacts/3k9pqvys_IMG-20260607-WA0006.jpg" 
+              alt="VW T-Cross mit Smart auf Hebebühne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 3 */}
+          {/* Bild 3 - Elektroauto grau */}
           <div className="break-inside-avoid">
             <img 
-              src="" 
-              alt="Werkstatt Bild 3" 
+              src="https://customer-assets-eiarnc6j.emergentagent.net/job_kfz-reparatur-pro/artifacts/64xhgom5_IMG-20260607-WA0004.jpg" 
+              alt="Elektroauto in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 4 */}
+          {/* Bild 4 - Dodge Durango auf Hebebühne */}
           <div className="break-inside-avoid">
             <img 
-              src="" 
-              alt="Werkstatt Bild 4" 
+              src="https://customer-assets-eiarnc6j.emergentagent.net/job_kfz-reparatur-pro/artifacts/722bq21x_IMG-20260829-WA0002.jpg" 
+              alt="Dodge Durango auf Hebebühne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 5 */}
+          {/* Bild 5 - Dodge Charger Sheriff */}
           <div className="break-inside-avoid">
             <img 
-              src="" 
-              alt="Werkstatt Bild 5" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 6 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 6" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 7 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 7" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 8 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 8" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 9 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 9" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 10 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 10" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 11 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 11" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 12 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 12" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 13 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 13" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 14 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 14" 
-              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
-            />
-          </div>
-
-          {/* Bild 15 */}
-          <div className="break-inside-avoid">
-            <img 
-              src="" 
-              alt="Werkstatt Bild 15" 
+              src="https://customer-assets-eiarnc6j.emergentagent.net/job_kfz-reparatur-pro/artifacts/jr3v947s_IMG-20260829-WA0004.jpg" 
+              alt="Dodge Charger Sheriff Style" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
