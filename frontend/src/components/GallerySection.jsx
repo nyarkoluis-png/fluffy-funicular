@@ -72,31 +72,31 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 6 - Mercedes C-Klasse weiß vor Werkstatt */}
+          {/* Bild 6 - BMW M3 hellblau */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/vckpllyj_IMG-20260619-WA0001%281%29.jpg" 
-              alt="Mercedes C-Klasse vor der Werkstatt" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/0kpibm88_IMG-20260829-WA0004~2.jpg" 
+              alt="BMW M3 hellblau in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-6"
             />
           </div>
 
-          {/* Bild 7 - BMW M3 hellblau */}
+          {/* Bild 7 - VW T-Cross mit Smart auf Hebebühne */}
           <div className="break-inside-avoid">
             <img 
               src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/lq5anb00_IMG-20260829-WA0002~2.jpg" 
-              alt="BMW M3 hellblau in der Werkstatt" 
+              alt="VW T-Cross mit Smart auf Hebebühne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-7"
             />
           </div>
 
-          {/* Bild 8 - VW T-Cross mit Smart auf Hebebühne */}
+          {/* Bild 8 - Mercedes C-Klasse weiß vor Werkstatt */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/0kpibm88_IMG-20260829-WA0004~2.jpg" 
-              alt="VW T-Cross mit Smart auf Hebebühne" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/fzkokl9m_IMG-20260829-WA0005~2.jpg" 
+              alt="Mercedes C-Klasse weiß vor der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-8"
             />
@@ -106,7 +106,7 @@ export default function GallerySection() {
           <div className="break-inside-avoid">
             <img 
               src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/9fh17ke8_IMG-20260619-WA0001~2.jpg" 
-              alt="Dodge Charger Sheriff Style" 
+              alt="Dodge Charger Sheriff Style ohne Kennzeichen" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-9"
             />
