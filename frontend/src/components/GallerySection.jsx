@@ -102,10 +102,10 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 9 - Dodge Charger Sheriff */}
+          {/* Bild 9 - Dodge Charger Sheriff (ohne Kennzeichen) */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/fzkokl9m_IMG-20260829-WA0005~2.jpg" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/9fh17ke8_IMG-20260619-WA0001~2.jpg" 
               alt="Dodge Charger Sheriff Style" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-9"
