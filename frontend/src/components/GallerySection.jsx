@@ -22,137 +22,137 @@ export default function GallerySection() {
         {/* Gallery Grid - Masonry Layout */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
           
-          {/* Bild 1 - Werkstatt Außenansicht */}
+          {/* Bild 1 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/8bbter4o_file_000000006cc4720a8a1e61b411dc40b6.png" 
-              alt="Werkstatt Außenansicht Daimlerstraße 17" 
+              src="" 
+              alt="Werkstatt Bild 1" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 2 - Diagnosegerät */}
+          {/* Bild 2 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/3x4rrf0w_file_00000000793871f4ba02a43648dca315%20%281%29.png" 
-              alt="Professionelles Diagnosegerät" 
+              src="" 
+              alt="Werkstatt Bild 2" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 3 - Werkstatt Innen mit BMW */}
+          {/* Bild 3 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/bld8cumq_webseite_optimiert_1.jpg" 
-              alt="Werkstatt mit BMW auf Hebebühne" 
+              src="" 
+              alt="Werkstatt Bild 3" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 4 - Bremsflüssigkeitsgerät */}
+          {/* Bild 4 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/55x9fnki_webseite_optimiert_2.jpg" 
-              alt="ATE FB30 Bremsflüssigkeits-Wechselgerät" 
+              src="" 
+              alt="Werkstatt Bild 4" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 5 - Reifenmontiermaschine */}
+          {/* Bild 5 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/j2t29eqx_webseite_optimiert_3.jpg" 
-              alt="Tecnohelp Reifenmontiermaschine" 
+              src="" 
+              alt="Werkstatt Bild 5" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 6 - Hebebühne Steuerung */}
+          {/* Bild 6 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/tckoo43r_20260612_132349~2.jpg" 
-              alt="Longus Hebebühne Steuerung" 
+              src="" 
+              alt="Werkstatt Bild 6" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 7 - Nummernschilder Sammlung */}
+          {/* Bild 7 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/w204n4un_20260612_132504~3.jpg" 
-              alt="Nummernschilder Sammlung" 
+              src="" 
+              alt="Werkstatt Bild 7" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 8 - Reifen & Motor */}
+          {/* Bild 8 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/oiugokkg_20260612_132812~2.jpg" 
-              alt="Reifen Stapel und Motor" 
+              src="" 
+              alt="Werkstatt Bild 8" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 9 - BMW M2 Wandbild */}
+          {/* Bild 9 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/0ggto5ue_20260612_132838~2.jpg" 
-              alt="BMW M2 Wandkunst" 
+              src="" 
+              alt="Werkstatt Bild 9" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 10 - Werkstatt Lager */}
+          {/* Bild 10 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/hdjcngcp_file_000000006340720abac62a26d481f19a.png" 
-              alt="Werkstatt Lagerraum mit Equipment" 
+              src="" 
+              alt="Werkstatt Bild 10" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 11 - Klimaservicegerät CAR1 */}
+          {/* Bild 11 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/a0dhrazb_20260612_132328~3.jpg" 
-              alt="CAR1 Klimaservicegerät ECK 3900-UP" 
+              src="" 
+              alt="Werkstatt Bild 11" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 12 - Schraubenschlüssel Wandtafel */}
+          {/* Bild 12 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/pjzt163b_20260612_132319~2.jpg" 
-              alt="Professionelle Schraubenschlüssel Sammlung" 
+              src="" 
+              alt="Werkstatt Bild 12" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 13 - Werkzeugtafel */}
+          {/* Bild 13 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/zqdodoz4_20260612_132303~2.jpg" 
-              alt="Werkzeugtafel mit Spezialwerkzeug" 
+              src="" 
+              alt="Werkstatt Bild 13" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 14 - Werkstatt Arbeitsbereich */}
+          {/* Bild 14 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/7vrb1cqr_20260612_132245~2.jpg" 
-              alt="Werkstatt Arbeitsbereich mit Motoröl" 
+              src="" 
+              alt="Werkstatt Bild 14" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
 
-          {/* Bild 15 - Hebebühne RP Tools */}
+          {/* Bild 15 */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/lea5vw0h_20260612_132206~3.jpg" 
-              alt="RP Tools Hebebühne mit Fahrzeug" 
+              src="" 
+              alt="Werkstatt Bild 15" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
             />
           </div>
