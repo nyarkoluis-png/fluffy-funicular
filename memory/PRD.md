@@ -14,13 +14,21 @@ Moderne, professionelle und verkaufsstarke Website für KFZ-Technik-Dreieich Gmb
 
 ## What's Been Implemented
 
+### 29. August 2026
+- ✅ Galerie komplett aktualisiert mit 9 neuen Werkstattbildern (ohne sichtbare Kennzeichen)
+  - Dodge Durango auf Hebebühne
+  - Silbernes Elektroauto
+  - Werkstatt-Panorama
+  - Mechaniker bei Motorarbeiten mit RAM Truck
+  - Porsche mit offener Haube
+  - Mercedes C-Klasse weiß vor der Werkstatt (GTÜ Schild)
+  - BMW M3 hellblau
+  - VW T-Cross mit Smart auf Hebebühne
+  - Dodge Charger "Sheriff" Style
+- ✅ FAQ-Sektion aktualisiert (4 Fragen)
+
 ### 12. Juni 2026
-- ✅ Galerie vervollständigt mit allen 15 echten Werkstattbildern
-  - Klimaservicegerät CAR1
-  - Schraubenschlüssel Wandtafel
-  - Werkzeugtafel mit Spezialwerkzeug
-  - Werkstatt Arbeitsbereich mit Motoröl
-  - RP Tools Hebebühne
+- ✅ Galerie mit 15 echten Werkstattbildern (später ersetzt)
 
 ### Vorherige Implementierungen
 - ✅ FastAPI Backend mit /api/contact Endpoint
@@ -49,7 +57,7 @@ Moderne, professionelle und verkaufsstarke Website für KFZ-Technik-Dreieich Gmb
     │       ├── Navbar.jsx
     │       ├── SlideshowBanner.jsx
     │       ├── ServicesTableSection.jsx (8 Blöcke, direkt in JSX)
-    │       ├── GallerySection.jsx (15 Bilder, direkt in JSX)
+    │       ├── GallerySection.jsx (9 Bilder, direkt in JSX)
     │       ├── AboutSection.jsx
     │       ├── ReviewsSection.jsx
     │       ├── ContactSection.jsx (Formular deaktiviert)
@@ -65,7 +73,8 @@ ServicesTableSection.jsx und GallerySection.jsx haben absichtlich repetitiven Co
 - ✅ Vollständige Landing Page mit Schwarz/Orange Theme
 - ✅ Slideshow-Banner (11 Bilder)
 - ✅ 8 Dienstleistungsblöcke (Visual-Editor kompatibel)
-- ✅ Galerie mit 15 echten Werkstattbildern
+- ✅ Galerie mit 9 neuen Werkstattbildern (ohne sichtbare Kennzeichen)
+- ✅ FAQ-Sektion mit 4 Fragen
 - ✅ Kontaktformular deaktiviert
 
 ### P1 (Wartend auf Benutzer)

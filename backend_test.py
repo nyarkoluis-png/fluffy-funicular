@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 
 class KFZTechnikAPITester:
-    def __init__(self, base_url="https://kfz-reparatur-pro.preview.emergentagent.com"):
+    def __init__(self, base_url="https://auto-repair-stage.preview.emergentagent.com"):
         self.base_url = base_url
         self.api_url = f"{base_url}/api"
         self.tests_run = 0
