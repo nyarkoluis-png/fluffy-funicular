@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 // New high-quality logo image
 const logoImage = "https://customer-assets.emergentagent.com/job_kfz-reparatur-pro/artifacts/ladyvxa6_file_0000000083687243bfab7d225a7395a7~2.png";
@@ -125,18 +126,20 @@ export default function Footer() {
               © {currentYear} KFZ-Technik-Dreieich GmbH. Alle Rechte vorbehalten.
             </p>
             <div className="flex items-center gap-6 text-sm">
-              <a
-                href="#"
+              <Link
+                to="/impressum"
                 className="text-[#71717A] hover:text-[#F97316] transition-colors"
+                data-testid="footer-impressum-link"
               >
                 Impressum
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/datenschutz"
                 className="text-[#71717A] hover:text-[#F97316] transition-colors"
+                data-testid="footer-datenschutz-link"
               >
                 Datenschutz
-              </a>
+              </Link>
             </div>
           </div>
         </div>
