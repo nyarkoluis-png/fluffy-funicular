@@ -110,6 +110,19 @@ export default function ImpressumPage() {
           </div>
         </section>
 
+        {/* Verbraucherstreitbeilegung */}
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold text-[#F97316] mb-4">
+            Verbraucherstreitbeilegung / Universalschlichtungsstelle
+          </h2>
+          <div className="bg-[#141414] rounded-lg border border-[#27272A] p-6">
+            <p className="text-[#A1A1AA]">
+              Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer 
+              Verbraucherschlichtungsstelle teilzunehmen.
+            </p>
+          </div>
+        </section>
+
         {/* Haftungsausschluss */}
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-[#F97316] mb-4">
