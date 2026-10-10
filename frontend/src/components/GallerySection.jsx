@@ -152,43 +152,63 @@ export default function GallerySection() {
             />
           </div>
 
-          {/* Bild 14 - Porsche 911 Turbo S silber von hinten */}
+          {/* Bild 14 - Porsche 911 Turbo S silber schräg von vorne */}
           <div className="break-inside-avoid">
             <img 
-              src="https://static.prod-images.emergentagent.com/jobs/a3fad17f-228c-4b72-ab0f-5f0517912e8d/images/3d72247d72557f1a0c0b62b426f4b2faff5a84840acc86282a70e6c35c97c5c2.jpeg" 
-              alt="Porsche 911 Turbo S silber von hinten vor der Werkstatt" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/cec6a5d9f7b5069e_foto3_schraeg.jpg" 
+              alt="Porsche 911 Turbo S silber schräg von vorne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-14"
             />
           </div>
 
-          {/* Bild 15 - Porsche 911 Turbo S silber schräg von vorne */}
+          {/* Bild 15 - Porsche 911 Turbo S silber von vorne */}
           <div className="break-inside-avoid">
             <img 
-              src="https://static.prod-images.emergentagent.com/jobs/a3fad17f-228c-4b72-ab0f-5f0517912e8d/images/f71b4def32faac0fd6cfcc42ef2c84f9292b1403f6e723dd011f35a711bd3187.jpeg" 
-              alt="Porsche 911 Turbo S silber schräg von vorne" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/0d5cae6b76fbc5ad_foto2_front.jpg" 
+              alt="Porsche 911 Turbo S silber direkt von vorne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-15"
             />
           </div>
 
-          {/* Bild 16 - Porsche 911 Turbo S silber direkt von vorne */}
+          {/* Bild 16 - Porsche 911 Turbo S silber Seitenansicht */}
           <div className="break-inside-avoid">
             <img 
-              src="https://static.prod-images.emergentagent.com/jobs/a3fad17f-228c-4b72-ab0f-5f0517912e8d/images/865eef1539d7e1680cbb87f4cb05f5384ee27111aee2273b155c470b93ff038f.jpeg" 
-              alt="Porsche 911 Turbo S silber direkt von vorne" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/dec349a865ee5ad1_WhatsApp%20Image%202026-10-10%20at%2012.02.246.jpeg" 
+              alt="Porsche 911 Turbo S silber Seitenansicht in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-16"
             />
           </div>
 
-          {/* Bild 17 - Porsche 911 Turbo S silber mit Fahrer */}
+          {/* Bild 17 - Porsche 911 Turbo S silber von hinten */}
           <div className="break-inside-avoid">
             <img 
-              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/fb1027887c5991b5_WhatsApp%20Image%202026-10-10%20at%2012.02.24..jpeg" 
-              alt="Porsche 911 Turbo S silber mit Fahrer vor KFZ-Technik Dreieich" 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/d14be0c30efac47c_foto1_heck%20%281%29.jpg" 
+              alt="Porsche 911 Turbo S silber von hinten vor KFZ-Technik Dreieich" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-17"
+            />
+          </div>
+
+          {/* Bild 18 - Porsche 911 Turbo S silber mit Fahrer */}
+          <div className="break-inside-avoid">
+            <img 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/2733dd8e10a4be12_WhatsApp%20Image%202026-10-10%20at%2012.02.244.jpeg" 
+              alt="Porsche 911 Turbo S silber mit Fahrer" 
+              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
+              data-testid="gallery-image-18"
+            />
+          </div>
+
+          {/* Bild 19 - Porsche 911 Turbo S silber Innenraum */}
+          <div className="break-inside-avoid">
+            <img 
+              src="https://customer-assets-lqy194kg.emergentagent.net/job_a3fad17f-228c-4b72-ab0f-5f0517912e8d/artifacts/8f146fa5e6f38a1e_WhatsApp%20Image%202026-10-10%20at%2012.02.245.jpeg" 
+              alt="Porsche 911 Turbo S silber Innenraum mit Leder" 
+              className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
+              data-testid="gallery-image-19"
             />
           </div>
 
