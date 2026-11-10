@@ -1,4 +1,9 @@
 export default function GallerySection() {
+  // Placeholder für nicht geladene Bilder
+  const handleImageError = (e) => {
+    e.target.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect fill="%23141414" width="400" height="300"/><text fill="%23666" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">Bild wird geladen...</text></svg>';
+  };
+
   return (
     <section
       id="gallery"
@@ -30,7 +35,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-1"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -42,7 +47,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-2"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -54,7 +59,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-3"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -66,7 +71,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-4"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -78,7 +83,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-5"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -90,7 +95,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-6"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -102,7 +107,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-7"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -114,7 +119,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-8"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -126,7 +131,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-9"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -138,7 +143,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-10"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -150,7 +155,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-11"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -162,7 +167,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-12"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -174,7 +179,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-13"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -186,7 +191,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-14"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -198,7 +203,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-15"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -210,7 +215,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-16"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -222,7 +227,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-17"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -234,7 +239,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-18"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
@@ -246,7 +251,7 @@ export default function GallerySection() {
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-19"
               loading="lazy"
-              onError={(e) => e.target.style.display = 'none'}
+              onError={handleImageError}
             />
           </div>
 
