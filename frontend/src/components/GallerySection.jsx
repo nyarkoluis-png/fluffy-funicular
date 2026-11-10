@@ -29,6 +29,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S von vorne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-1"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -39,6 +41,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S von der Seite" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-2"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -49,6 +53,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S von hinten vor der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-3"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -59,6 +65,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S Innenraum mit rotem Leder" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-4"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -69,6 +77,8 @@ export default function GallerySection() {
               alt="Dodge Durango auf Hebebühne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-5"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -79,6 +89,8 @@ export default function GallerySection() {
               alt="Silbernes Elektroauto in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-6"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -89,6 +101,8 @@ export default function GallerySection() {
               alt="Werkstatt Panorama mit mehreren Autos" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-7"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -99,6 +113,8 @@ export default function GallerySection() {
               alt="Mechaniker bei Motorarbeiten" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-8"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -109,6 +125,8 @@ export default function GallerySection() {
               alt="Porsche mit offener Haube" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-9"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -119,6 +137,8 @@ export default function GallerySection() {
               alt="BMW M3 hellblau in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-10"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -129,6 +149,8 @@ export default function GallerySection() {
               alt="VW T-Cross mit Smart auf Hebebühne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-11"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -139,6 +161,8 @@ export default function GallerySection() {
               alt="Mercedes C-Klasse weiß vor der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-12"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -149,6 +173,8 @@ export default function GallerySection() {
               alt="Dodge Charger Sheriff Style ohne Kennzeichen" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-13"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -159,6 +185,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S silber schräg von vorne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-14"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -169,6 +197,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S silber direkt von vorne" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-15"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -179,6 +209,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S silber Seitenansicht in der Werkstatt" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-16"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -189,6 +221,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S silber von hinten vor KFZ-Technik Dreieich" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-17"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -199,6 +233,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S silber mit Fahrer" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-18"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
@@ -209,6 +245,8 @@ export default function GallerySection() {
               alt="Porsche 911 Turbo S silber Innenraum mit Leder" 
               className="w-full h-auto rounded-lg border border-[#27272A] hover:border-[#F97316] transition-all"
               data-testid="gallery-image-19"
+              loading="lazy"
+              onError={(e) => e.target.style.display = 'none'}
             />
           </div>
 
